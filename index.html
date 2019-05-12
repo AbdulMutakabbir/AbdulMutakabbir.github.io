@@ -21,27 +21,31 @@
       </button>
 
       <div id="headerMenu" class="collapse navbar-collapse">
+
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Me</a>
+          <li class="nav-item dropdown">
+            <button class="btn dropdowntoggle nav-link" type="button" id="veg/non-veg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Veg/Non-Veg</button>
+            <div class="dropdown-menu bg-dark" aria-labeledby="veg/non-veg">
+              <a href="#" class="dropdown-item nav-link bg-dark">Vegetarian Gourmet</a>
+              <a href="#" class="dropdown-item nav-link bg-dark">Non-Vegetarian Gourmet</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <button class="btn dropdowntoggle nav-link" type="button" id="cuisine" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cuisine</button>
+            <div class="dropdown-menu bg-dark" aria-labeledby="cuisine">
+              <a href="#" class="dropdown-item nav-link bg-dark">Italian</a>
+              <a href="#" class="dropdown-item nav-link bg-dark">Indian</a>
+              <a href="#" class="dropdown-item nav-link bg-dark">Chinese</a>
+              <a href="#" class="dropdown-item nav-link bg-dark">Continental</a>
+              <a href="#" class="dropdown-item nav-link bg-dark">Fast Food</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Veg/Non-Veg</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Cuisine</a>
-            <ul class='navbar-nav'>
-              <li class="nav-item">ltalen</li>
-              <li class="nav-item">indian</li>
-              <li>chinies</li>
-            </ul>
+            <a href="#" class="nav-link">MySocial</a>
           </li>
         </ul>
       </div>
     </nav>
-
-
-
 
     <div id="featured" class="carousel slide carousel-fade" data-ride="carousel">
         <!-- indicators  -->
@@ -55,9 +59,9 @@
         <!-- slides  -->
         <div class="carousel-inner text-center" role="listbox">
           <div class="carousel-item active">
-            <img src="images/Chinese-food-banner.jpg" alt="Chines">
+            <img src="images/Chinese-food-banner.jpg" alt="Chinese">
             <div class="carousel-caption">
-              <h2 class="display-2" style="font-family: 'Courgette', cursive;">Chines Cuisine</h2>
+              <h2 class="display-2" style="font-family: 'Courgette', cursive;">Chinese Cuisine</h2>
             </div>
           </div>
           <div class="carousel-item">
@@ -94,10 +98,9 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-
     </div>
 
-    <div class="container shadow">
+    <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xl-2">
           <div class="jumbotron">
